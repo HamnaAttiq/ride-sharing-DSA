@@ -1,0 +1,12 @@
+# Ride-Sharing Dispatch & Trip Management System
+
+## Description
+This project simulates a ride-sharing system using in-memory data structures. 
+It includes city modeling, driver dispatching, trip lifecycle management, rollback handling, and analytics.
+
+## Technologies
+- C++
+- Data Structures (Graph, Stack, Arrays)
+
+## Status
+Planning Phase
