@@ -14,7 +14,69 @@ The project manages riders, drivers, trips, city locations, dispatch logic, canc
 - Assign drivers using **shortest path logic**
 - Handle trip cancellation with **rollback mechanism**
 - Maintain trip history and generate analytics
-- Apply data structures in a real-world scenario
+- Apply data structures in a real-world scenario                                                                                                                                                
+Invalid state transitions are not allowed.
+
+---
+
+### 🧠 Dispatch Engine
+- Assigns nearest available driver
+- Prefers drivers in the same zone
+- Calculates distance using shortest path
+
+---
+
+### 🔁 Rollback Mechanism
+- Uses **Stack** data structure
+- Allows undoing last trip assignments
+- Restores driver availability after cancellation
+
+---
+
+### 📊 Analytics & Reporting
+- Average trip distance
+- Number of completed vs cancelled trips
+- Driver utilization statistics
+
+---
+
+## 🛠️ Technologies Used
+- **C++**
+- **Data Structures**
+  - Graph (Adjacency List)
+  - Stack
+  - Arrays / Linked Lists
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 🧪 Test Cases Included
+- Normal trip assignment
+- Same-zone driver selection
+- Cross-zone driver assignment
+- Trip cancellation
+- Rollback of last trip
+- Multiple rollback operations
+- Invalid state transition handling
+- Analytics before and after rollback
+
+---
+
+## ▶️ How to Run
+1. Clone the repository
+2. Compile all `.cpp` files
+3. Run `main.cpp`
+
+Example:
+```bash
+g++ *.cpp -o rideshare
+./rideshare
+
 
 ---
 
